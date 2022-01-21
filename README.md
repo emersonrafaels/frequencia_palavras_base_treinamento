@@ -31,7 +31,7 @@
 
 ## 💻 Sobre o projeto
 
-📦 **Frequência de palavras** é um projeto que obtém a **frequência* com que as palavras** são **mencionadas nos comentários de uma base de treinamento**. 
+📦 **Frequência de palavras** é um projeto que obtém a **frequência com que as palavras** são **mencionadas nos comentários de uma base de treinamento**. 
 
 A frequência de uma palavra ou **frequência de um termo (tf)** é uma **questão central na mineração de dados**.
 
