@@ -45,8 +45,8 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
  - **Tokenização** - É o processo de segmentar o texto em _tokens_, que são as formas mais elementais (geralmente palavras e pontuação) que carregam significado. O processo de tokenização deve levar em consideração detalhes como, por exemplo, se determinada pontuação indica ou não separação de tokens. Por exemplo, na frase _“Vou viajar pra N.Y.”_, o segmento _N.Y._ indica a entidade _Nova York_, e deve ser considerado um único token. Os modelos disponíveis no spaCy permitem essa tokenização especializada, produzindo resultados altamente adequados para as tarefas seguintes.
  - **Lematização** - Esse processo reduz as flexões das palavras ao seu _lemma_ ou raiz. Por exemplo, a palavra no plural _aviões_ é derivada do lemma _avião,_ assim como o verbo _assistimos_ tem origem no lemma _assistir._ A lemmatização costuma simplificar e generalizar os resultados de algumas tarefas de PLN posteriores.
- - **Remoção das Stop Words** - As stop words são atualmente as mais comuns em uma língua (como artigos, preposições, pronomes, conjunções, etc) e não trazem informações úteis ao texto. Exemplos de stopwords são: 'de', 'do', 'e', 'então'.
- - **Remoção de pontuações** - Como contarem a frequência de palavras, é útil remover as pontuações, evitando que elas sejam consideradas palavras.
+ - **Remoção das Stop Words** - As stop words são atualmente as palavras mais comuns em uma língua (como artigos, preposições, pronomes, conjunções, etc) e não trazem informações úteis ao texto. Exemplos de stopwords são: 'de', 'do', 'e', 'então'.
+ - **Remoção de pontuações** - Para contar a frequência de palavras é útil remover as pontuações, evitando que elas sejam consideradas palavras.
 
 ## 🚀 Como executar o projeto
 
